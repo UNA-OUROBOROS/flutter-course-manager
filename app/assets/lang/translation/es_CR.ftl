@@ -1,0 +1,1 @@
+app-title=Gestor de Cursos
