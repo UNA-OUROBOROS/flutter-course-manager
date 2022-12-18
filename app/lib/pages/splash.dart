@@ -8,6 +8,7 @@ class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //
     return const SplashScreen();
   }
 }
@@ -34,7 +35,6 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(lang.getTranslation('app-title')),
-            const CircularProgressIndicator(),
           ],
         ),
       ),
